@@ -1,0 +1,242 @@
+/*
+File Name:
+   conference.print.css
+File Description:
+   NICO Complexity Conference style sheet
+File Author:
+   <j-morrow@northwestern.edu>
+Last Updated:
+   2:23pm 5/13/2006 j-serafin@northwestern.edu
+*/
+
+
+
+/*
+//   NICO Site Colors
+//
+//   home bubble text gray:   #585858;
+//   home menu dark green:    #838D00;
+//   page header dark green:  #5B6F7C;
+//   page menu light green:   #F1F4D3;
+//   footer text gray:        #546976;
+*/
+
+
+/*
+//   Global Styles
+*/
+
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+TABLE {
+    border-collapse: collapse;
+}
+
+IMG,
+IMG A {
+    border: none;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+
+/*
+//   Front Page Styles
+*/
+
+
+#front {
+    background-image: url(../images/front_back.gif);
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 740px;
+}
+
+#front_title {
+    width: 300px;
+    top: 100px;
+    left: 32px;
+    position: absolute;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+#front_title H1 {
+    font-size: 3.5em;
+    padding-bottom: 18px;
+}
+
+#front_title H2 {
+    font-size: 1.5em;
+}
+
+#front_title H3 {
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+
+#front_bubble_text {
+    width: 315px;
+    height: 315px;
+    top: 240px;
+    left: 410px;
+    position: absolute;
+    color: #585858;
+    font-size: 1.0em;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+
+#front_menu {
+    top: 375px;
+    left: 32px;
+    position: absolute;
+    color: #838D00;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 1.9em;
+}
+
+#front_menu TD {
+    vertical-align: bottom;
+}
+
+#front_menu IMG {
+    margin-bottom: 6px;
+}
+
+#front_menu A {
+    margin-left: 6px;
+    text-decoration: none;
+    color: #838D00;
+}
+
+#front_menu A:active,
+#front_menu A:hover {
+    text-decoration: underline;
+}
+
+#front_hr {
+    top: 605px;
+    left: 32px;
+    position: absolute;
+}
+
+#front_footer {
+    top: 625px;
+    left: 32px;
+    width: 700px;
+    position: absolute;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 0.7em;
+    line-height: 1.1em;
+    color: #6F818C;
+}
+
+#front_footer A {
+    color: #6F818C;
+    text-decoration: underline;
+}
+
+
+/*
+//   Second-level Page Styles
+*/
+
+
+#top {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#page_header_text {
+    display: none;
+}
+
+#page_header_print {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 88%;
+}
+
+#page_header {
+    display: none;
+}
+
+#page_menu {
+    display: none;
+}
+
+#page_body {
+    top: 131px;
+    width: 100%;
+    position: relative;
+}
+
+#page_body H1 {
+    height: 20px;
+    background-image: url(../images/page_title_back.gif);
+    background-repeat: no-repeat;
+    color: #838D00;
+    font-size: 1.2em;
+    padding: 9px;
+}
+
+#page_body H2 {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    color: #5B6F7C;
+    font-weight: normal;
+    font-size: 1.125em;
+    padding-left: 9px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+}
+
+#page_body P {
+    font-size: 0.75em;
+    padding: 9px;
+    padding-bottom: 8px;
+    line-height: 1.2em;
+}
+
+#page_body P STRONG {
+    font-weight: bold;
+}
+
+#page_hr {
+    clear: both;
+    top: 146px;
+    left: 32px;
+    position: relative;
+}
+
+#page_footer {
+    top: 161px;
+    left: 32px;
+    width: 700px;
+    position: relative;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 0.7em;
+    line-height: 1.1em;
+    color: #6F818C;
+}
+
+#page_footer A {
+    color: #6F818C;
+    text-decoration: underline;
+}

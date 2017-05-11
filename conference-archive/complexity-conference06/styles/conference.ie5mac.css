@@ -1,0 +1,164 @@
+/*
+File Name:
+   conference.ie5mac.css
+File Description:
+   NICO Complexity Conference style sheet for IE5 Mac
+File Author:
+   <j-morrow@northwestern.edu>
+Last Updated:
+   5:17pm 2/15/2006 JOE
+*/
+
+
+/*
+//   NICO Site Colors
+//
+//   home bubble text gray:   #585858;
+//   home menu dark green:    #838D00;
+//   page header dark green:  #5B6F7C;
+//   page menu light green:   #F1F4D3;
+//   footer text gray:        #546976;
+*/
+
+
+/*
+//   Second-level Page Styles
+*/
+
+
+/*
+#page_menu {
+    top: 131px;
+    left: 15px;
+    width: 215px;
+    position: absolute;
+    background-color: #F1F4D3;
+}
+
+#page_menu .border_left {
+    width: 4px;
+    background-image: url(../images/blank_green.gif);
+    background-repeat: repeat-y;
+    background-position: left top;
+}
+
+#page_menu .border_right {
+    width: 4px;
+    background-image: url(../images/blank_green.gif);
+    background-repeat: repeat-y;
+    background-position: right top;
+}
+
+#page_menu TD.menu {
+    padding: 19px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+
+#page_menu .menu TD {
+    vertical-align: bottom;
+    color: #838D00;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 1.85em;
+}
+
+#page_menu .menu IMG {
+    margin-bottom: 6px;
+}
+
+#page_menu .menu A {
+    margin-left: 6px;
+    text-decoration: none;
+    color: #838D00;
+}
+
+#page_menu .menu A:active,
+#page_menu .menu A:hover {
+    text-decoration: underline;
+}
+*/
+
+#page_body {
+    top: 0px;
+    padding-top: 131px;
+    left: 0px;
+    padding-left: 245px;
+}
+/*
+    top: 131px;
+    left: 245px;
+    width: 471px;
+    position: relative;
+}
+*/
+
+/*
+#page_body H1 {
+    width: 471px;
+    height: 20px;
+    background-image: url(../images/page_title_back.gif);
+    background-repeat: no-repeat;
+    color: #838D00;
+    font-size: 1.2em;
+    padding: 9px;
+}
+
+#page_body H2 {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    color: #5B6F7C;
+    font-weight: normal;
+    font-size: 1.125em;
+    padding-left: 9px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+}
+
+#page_body P {
+    font-size: 0.75em;
+    padding: 9px;
+    padding-bottom: 8px;
+    line-height: 1.2em;
+}
+
+#page_body P STRONG {
+    font-weight: bold;
+}
+*/
+
+#page_hr {
+    top: 0px;
+    left: 0px;
+    padding-left: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+/*
+    clear: both;
+    top: 40px;
+    left: 32px;
+    position: relative;
+}
+*/
+
+#page_footer {
+    top: 0px;
+    left: 0px;
+    padding-left: 32px;
+}
+/*
+    top: 161px;
+    left: 32px;
+    width: 700px;
+    position: relative;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 0.7em;
+    line-height: 1.1em;
+    color: #6F818C;
+}
+
+#page_footer A {
+    color: #6F818C;
+    text-decoration: underline;
+}
+*/

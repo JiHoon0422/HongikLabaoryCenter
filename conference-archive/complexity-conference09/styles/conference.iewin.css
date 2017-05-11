@@ -1,0 +1,36 @@
+/*
+File Name:
+   conference.ie.css
+File Description:
+   NICO Complexity Conference style sheet for IE on Windows
+File Author:
+   <j-morrow@northwestern.edu>
+Last Updated:
+   4:26pm 2/15/2006 JOE
+*/
+
+
+/*
+//   NICO Site Colors
+//
+//   home bubble text gray:   #585858;
+//   home menu dark green:    #838D00;
+//   page header dark green:  #5B6F7C;
+//   page menu light green:   #F1F4D3;
+//   footer text gray:        #546976;
+*/
+
+
+
+/*
+//   Front Page Styles
+*/
+
+
+#front_menu TD {
+    vertical-align: bottom;
+}
+
+#front_menu IMG {
+    margin-bottom: 5px;
+}
